@@ -16,9 +16,9 @@ namespace Nunit
             set { szerokosc = value; }
         }
 
-        private int wysokosc;
+        private double wysokosc;
 
-        public int Wysokosc
+        public double Wysokosc
         {
             get { return wysokosc; }
             set { wysokosc = value; }
