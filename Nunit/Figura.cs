@@ -8,17 +8,16 @@ namespace Nunit
 {
     abstract class Figura
     {
-        private int szerokosc;
+        private double szerokosc;
 
-        public int Szerokosc
+        public double Szerokosc
         {
             get { return szerokosc; }
             set { szerokosc = value; }
         }
 
-        private int wysokosc;
-
-        public int Wysokosc
+        private double wysokosc;
+        public double Wysokosc
         {
             get { return wysokosc; }
             set { wysokosc = value; }
