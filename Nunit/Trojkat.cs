@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Nunit
 {
-    class Program
+    class Trojkat:Figura
+
     {
-        static void Main(string[] args)
+
+        public override double pole()
         {
             
+            return 
         }
+
     }
 }
