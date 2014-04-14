@@ -13,7 +13,7 @@ namespace Nunit
             ;
         }
 
-        public Prostokat(int wysokosc, int szerokosc)
+        public Prostokat(double wysokosc, double szerokosc)
         {
             this.Szerokosc = szerokosc;
             this.Wysokosc = wysokosc;
