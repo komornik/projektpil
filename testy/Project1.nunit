@@ -1,6 +1,0 @@
-﻿<NUnitProject>
-  <Settings activeconfig="Debug" />
-  <Config name="Debug" binpathtype="Auto" />
-  <Config name="Release" binpathtype="Auto" />
-  <Config name="krzysztof" binpathtype="Auto" />
-</NUnitProject>
