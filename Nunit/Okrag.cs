@@ -27,9 +27,9 @@ namespace Nunit
         /// <returns> jeśli nie podano promienia zwraca -1</returns>
         public override double pole()
         {
-            if (r != null)
+            if (r >=0)
             {
-                return (Math.PI * (r * r));
+                return (3.14 * (r * r));
             }
             else
             {
