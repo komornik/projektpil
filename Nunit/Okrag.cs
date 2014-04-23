@@ -2,13 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Math;
+
 
 namespace Nunit
 {
-    class Okrag : Figura
+   public class Okrag : Figura
     {
-        
         private double r;
 
         public double promien

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nunit
 {
-    abstract class Figura
+    abstract public class Figura
     {
         private double szerokosc;
 
