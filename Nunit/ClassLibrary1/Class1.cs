@@ -8,10 +8,10 @@ using NUnit.Framework;
 namespace ClassLibrary1
 {
     [TestFixture]
-    public class Class1
+    public class KrzysztofSimonTest
     {
         [Test]
-        public void TestokragPole()
+        public void TestOkragPole()
         {
             Okrag o = new Okrag();
             o.promien = 2;
@@ -20,7 +20,7 @@ namespace ClassLibrary1
         }
 
         [Test]
-        public void TestokragPole2()
+        public void TestOkragPole2()
         {
             Okrag o = new Okrag();
             o.promien=-50;
@@ -29,7 +29,7 @@ namespace ClassLibrary1
         }
 
         [Test]
-        public void TestokragPole3()
+        public void TestOkragPole3()
         {
             Okrag o = new Okrag();
             o.promien = 1.4;

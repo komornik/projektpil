@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nunit", "Nunit.csproj", "{4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "..\Project1\Project1.csproj", "{EE6A53DD-9C55-4438-A3CF-AC1F7FDBD12B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{162B48D8-C61D-4A97-B383-85BFF683215F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KrzysztofSimon", "ClassLibrary1\KrzysztofSimon.csproj", "{162B48D8-C61D-4A97-B383-85BFF683215F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
