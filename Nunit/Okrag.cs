@@ -43,9 +43,9 @@ namespace Nunit
         /// <returns> jeśli nie podano promienia zwraca -1</returns>
         public override double obwod()
         {
-            if (r != null)
+            if (r >=0)
             {
-                return (2*Math.PI * r);
+                return (2*3.14*r);
             }
             else
             {

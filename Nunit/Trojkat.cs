@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Nunit
 {
-    class Trojkat:Figura
+    public class Trojkat:Figura
 
     {
         private double c;
@@ -22,6 +22,11 @@ namespace Nunit
         {
             get { return b; }
             set { b = value; }
+        }
+
+        public double bok_a
+        {
+            set { Szerokosc = value; }
         }
 
         public Trojkat()
@@ -65,13 +70,13 @@ namespace Nunit
         /// <returns>jeśli nie podano boku c i b funkcja zwraca -1</returns>
         public override double obwod()
         {
-            if (b == null || c == null)
+            if (b <=0f || c <=0f || Szerokosc<=0f)
             {
                 return -1;
             }
             else
             {
-                return (Szerokosc * b * c);
+                return (Szerokosc + b + c);
             }
 
         }
