@@ -82,7 +82,7 @@ namespace ClassLibrary1
         {
             List<wyniki> dane = new List<wyniki>();
             dane.Add(new wyniki(3,3,4.5));
-            dane.Add(new wyniki(-1,2,-1));
+            dane.Add(new wyniki(-1,2,-2));
             dane.Add(new wyniki(1,-2,-1));
             dane.Add(new wyniki(10, 6, 30));
 
