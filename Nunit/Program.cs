@@ -10,9 +10,13 @@ namespace Nunit
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
+            
+=======
             ProstokatTest test = new ProstokatTest();
             test.PoleTest();
             test.ObwodTest();
+>>>>>>> krisu
         }
     }
 }
