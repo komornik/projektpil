@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.wysokosc_txb = new System.Windows.Forms.TextBox();
@@ -264,6 +265,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button policz;
         protected System.Windows.Forms.TextBox wynik_txb;
+=======
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Text = "Form1";
+        }
+
+        #endregion
+>>>>>>> d4b53367ebb6710eef0f682733572ff617c4bc4f
     }
 }
 

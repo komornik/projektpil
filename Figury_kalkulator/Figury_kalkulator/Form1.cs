@@ -15,6 +15,7 @@ namespace Figury_kalkulator
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         private bool czyDouble(String dana)
         {
             bool czy = true;
@@ -59,5 +60,7 @@ namespace Figury_kalkulator
                     szerokosc_txb.BackColor = Color.White;
                 }
         }
+=======
+>>>>>>> d4b53367ebb6710eef0f682733572ff617c4bc4f
     }
 }
