@@ -50,7 +50,7 @@ namespace Nunit
         /// klasa licz¹ca pole trapezu
         /// </summary>
         /// <returns> jeœli jakiœ bok lub wysokoœæ jest ujemna to zwraca -1</returns>
-        public override double pole()
+        public override double obwod()
         {
             if (a >= 0 || b >= 0 || c >= 0 || d >= 0 || h >= 0)
             {
@@ -66,7 +66,7 @@ namespace Nunit
         /// klasa licz¹ca obwód trapezu
         /// </summary>
         /// <returns>jeœli jakiœ bok lub wysokoœæ jest ujemna to zwraca -1</returns>
-        public override double obwod()
+        public override double pole()
         {
             if (a >= 0 || b >= 0 || h >= 0)
             {
