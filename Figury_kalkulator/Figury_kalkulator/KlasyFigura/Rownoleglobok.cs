@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Nunit
 {
-    public class Rownoleglobok : Figura
+   public class Rownoleglobok : Figura
     {
         /// <summary>
         /// Wysokość równoległoboku

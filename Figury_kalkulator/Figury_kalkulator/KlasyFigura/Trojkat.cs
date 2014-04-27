@@ -54,7 +54,7 @@ namespace Nunit
         /// <returns>jeśli nie podano boku Wyskości lub Podstawy funkcja zwraca -1</returns>
         public override double pole()
         {
-            if (Wysokosc == null || Szerokosc == null)
+            if (Wysokosc <0 || Szerokosc <0)
             {
                 return -1;
             }

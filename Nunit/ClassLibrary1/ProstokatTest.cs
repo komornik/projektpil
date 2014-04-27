@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using Nunit;
 
-namespace ClassLiblary1
+namespace Nunit
 {
     [TestFixture]
-    public class ProstokatTest
+    class ProstokatTest
     {
         [Test]
         public void PoleTest()
@@ -19,7 +18,7 @@ namespace ClassLiblary1
 
             Console.WriteLine("Test liczenie pola prostokąta o wartościach w = " + prostokat.Wysokosc + " s = " + prostokat.Szerokosc);
             Assert.AreEqual(200, prostokat.pole());
-            Console.ReadKey();
+            
         }
 
         [Test]
@@ -29,7 +28,7 @@ namespace ClassLiblary1
 
             Console.WriteLine("Test liczenie obwodu prostokąta o wartościach w = " + prostokat.Wysokosc + " s = " + prostokat.Szerokosc);
             Assert.AreEqual(60, prostokat.obwod());
-            Console.ReadKey();
+            
         }
 
     }

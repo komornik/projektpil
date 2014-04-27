@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 
 namespace Nunit
 {
@@ -10,14 +11,10 @@ namespace Nunit
         private double szerokosc;
 
         public double Szerokosc
-
         {
             get { return szerokosc; }
             set { szerokosc = value; }
         }
-
-
-
 
         private double wysokosc;
 

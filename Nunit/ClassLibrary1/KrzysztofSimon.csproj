@@ -29,6 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.3.13283, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
@@ -50,9 +51,9 @@
     <Compile Include="RownoleglobokTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Figury_kalkulator\Figury_kalkulator\Figury_kalkulator.csproj">
-      <Project>{0DC08995-B6EC-4223-87C9-C91DD2DC0ED0}</Project>
-      <Name>Figury_kalkulator</Name>
+    <ProjectReference Include="..\Nunit.csproj">
+      <Project>{4DBCD74A-FD3A-4845-9A9C-90079CECC426}</Project>
+      <Name>Nunit</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

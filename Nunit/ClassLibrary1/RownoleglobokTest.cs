@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
-using Nunit;
 
-
-namespace ClassLibrary1
+namespace Nunit
 {
     [TestFixture]
-    public class RownoleglobokTest
+    class RownoleglobokTest
     {
         [Test]
         public void PoleTest()
@@ -17,11 +15,11 @@ namespace ClassLibrary1
 
             rownoleglobok.Szerokosc = 10;
             rownoleglobok.Wysokosc = 20;
-            rownoleglobok.H= 10;
+            rownoleglobok.H = 10;
 
             Console.WriteLine("Test liczenie pola równoległoboku o wartościach A = " + rownoleglobok.Szerokosc + " H = " + rownoleglobok.H);
             Assert.AreEqual(100, rownoleglobok.pole());
-            Console.ReadKey();
+            
         }
 
         [Test]
@@ -31,7 +29,7 @@ namespace ClassLibrary1
 
             Console.WriteLine("Test liczenie obwodu równoległoboku o wartościach A = " + rownoleglobok.Szerokosc + " B = " + rownoleglobok.Wysokosc);
             Assert.AreEqual(60, rownoleglobok.obwod());
-            Console.ReadKey();
+            
         }
 
     }

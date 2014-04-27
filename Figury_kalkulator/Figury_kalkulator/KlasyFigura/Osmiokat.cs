@@ -20,7 +20,7 @@ namespace Nunit
 
 
         }
-       
+
         /// <summary>
         /// klasa licz¹ca pole osmiokatu
         /// </summary>
@@ -43,7 +43,7 @@ namespace Nunit
         /// <returns> jeœli nie podano boku zwraca -1</returns>
         public override double obwod()
         {
-            if (a >0)
+            if (a != null)
             {
                 return (8*a);
             }
@@ -52,6 +52,5 @@ namespace Nunit
                 return -1;
             }
         }
-         
     }
 }

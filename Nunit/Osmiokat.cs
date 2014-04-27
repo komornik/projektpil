@@ -27,7 +27,7 @@ namespace Nunit
         /// <returns> jeœli nie podano boku zwraca -1</returns>
         public override double pole()
         {
-            if (r >= 0)
+            if (a >= 0)
             {
                 return (2 * (1 + Math.Sqrt(2))*(a*a));
             }
@@ -43,7 +43,7 @@ namespace Nunit
         /// <returns> jeœli nie podano boku zwraca -1</returns>
         public override double obwod()
         {
-            if (r != null)
+            if (a != null)
             {
                 return (8*a);
             }

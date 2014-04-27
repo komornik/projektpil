@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Nunit
 {
-    class Prostokat : Figura
+   public class Prostokat : Figura
     {
         public Prostokat()
         {
