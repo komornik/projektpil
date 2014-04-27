@@ -4,20 +4,25 @@ using System.Text;
 
 namespace Nunit
 {
-    class Rownoleglobok : Figura
+    public class Rownoleglobok : Figura
     {
         /// <summary>
         /// Wysokość równoległoboku
         /// </summary>
         private double h;
 
+        /// <summary>
+        /// Properties wysokość równoległoboku
+        /// </summary>
         public double H
         {
             get { return h; }
             set { h = value; }
         }
 
-
+        /// <summary>
+        /// Pusty konstruktor
+        /// </summary>
         public Rownoleglobok()
         {
             ;
@@ -47,6 +52,10 @@ namespace Nunit
             {
                 return this.Szerokosc * this.h;
             }
+            else
+            {
+                throw new ArgumentException();
+            }
             throw new NotImplementedException();
         }
 
@@ -59,6 +68,10 @@ namespace Nunit
             if (this.Szerokosc > 0 && this.Wysokosc > 0)
             {
                 return (2 * this.Szerokosc) + (2 * this.Wysokosc);
+            }
+            else
+            {
+                throw new ArgumentException();
             }
             throw new NotImplementedException();
         }
