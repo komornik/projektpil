@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 using NUnit.Framework;
+using Nunit;
 
-namespace Nunit
+namespace ClassLiblary1
 {
     [TestFixture]
-    class ProstokatTest
+    public class ProstokatTest
     {
         [Test]
         public void PoleTest()

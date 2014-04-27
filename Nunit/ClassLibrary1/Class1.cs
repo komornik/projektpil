@@ -7,8 +7,7 @@ using NUnit.Framework;
 
 namespace ClassLibrary1
 {
-<<<<<<< HEAD
-=======
+
     class wyniki
     {
         public double zmienna;
@@ -39,6 +38,7 @@ namespace ClassLibrary1
         }
         public wyniki(double podstawa_a, double podstawa_b,double podstawa_c, double wynik)
         {
+            
             this.zmienna = podstawa_a;
             this.wynik = wynik;
             this.wysokosc = podstawa_b;
@@ -46,41 +46,13 @@ namespace ClassLibrary1
         }
 
     }
->>>>>>> krzysztof_test
+
     [TestFixture]
     public class KrzysztofSimonTest
     {
         [Test]
         public void TestOkragPole()
         {
-<<<<<<< HEAD
-            Okrag o = new Okrag();
-            o.promien = 2;
-            string sol = Convert.ToString(o.pole());
-            Assert.AreEqual("12,56", sol);
-        }
-
-        [Test]
-        public void TestOkragPole2()
-        {
-            Okrag o = new Okrag();
-            o.promien=-50;
-            string sol = Convert.ToString(o.pole());
-            Assert.AreEqual("-1", sol);
-        }
-
-        [Test]
-        public void TestOkragPole3()
-        {
-            Okrag o = new Okrag();
-            o.promien = 1.4;
-            string sol = Convert.ToString(o.pole());
-            Assert.AreEqual("6,1544", sol);
-        }
-
-        
-    }
-=======
             List<wyniki> dane = new List<wyniki>();
             dane.Add(new wyniki(2,12.56));
             dane.Add(new wyniki(-50,-1));
@@ -91,6 +63,8 @@ namespace ClassLibrary1
                 Assert.AreEqual(a.wynik, o.pole());
             }
         }
+
+       
 
         [Test]
         public void TestOkragObwod()
@@ -148,7 +122,4 @@ namespace ClassLibrary1
             }
         }
     }
-
-        
->>>>>>> krzysztof_test
 }
